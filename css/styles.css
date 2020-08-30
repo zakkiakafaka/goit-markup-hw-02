@@ -240,3 +240,26 @@ h3 {
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+.button-list button {
+    background: #F5F4FA;
+    border-radius: 4px;
+    border-image: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.button-list button:hover,
+.button-list button:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
