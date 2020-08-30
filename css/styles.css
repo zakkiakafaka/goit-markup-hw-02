@@ -1,0 +1,242 @@
+/* выделим палитру цветов макета */
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* вторичный белый #FFFFFF */
+/* акцент #2196F3 */
+/* основной цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона футера #2F303A */
+
+/* оформление index.html */
+
+/* Пока без переменных, сумашедшая каша в голове */
+
+/* задаем фон и цвет текста всему элементу body  */
+body {
+    background-color: #FFFFFF;
+    color: #757575;
+}
+
+/* убираем нижние подчеркивание ссылок */
+a {
+    text-decoration: none;
+}
+
+.logo{
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.logo:focus {
+    color: #212121;
+}
+
+.logo-part {
+    color: #2196F3; 
+}
+
+/* убираем точки со списков, можно это сделать через селектор тега ul, а можно всем спискам обьявить class="list"(просто подсказка на будущее) */
+ul {
+    list-style: none;
+}
+
+/* навигационный блок */
+.site-nav .link {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.site-nav .link.current {
+    color: #2196F3;
+}
+/* контакты */
+.contacts .link {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contacts .link:hover,
+.contatcs .link:focus {
+    color:  #2196F3;
+}
+
+/* задал всем заголовкам цвет, потому что они унаследовали цвет от body
+h1,h2,h3 {
+    color: #212121;
+} */
+
+/* я абсолютно не понимаю, как это оформить */
+.button {
+    color: #FFFFFF;
+    background: #2196F3;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    padding: 10px, 32px;
+}
+
+.button:focus {
+    color: #212121;;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #212121;
+    /* в будущем сменить цвет на #FFFFFF */
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.features {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-heading h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.what-we-do h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /* в будущем сменить цвет на белый */
+}
+
+.team-list h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-list p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.footer {
+    background: #2F303A;
+}
+
+.address .link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* оформление Portfolio */
+
+.portfolio-list h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: #212121;
+    }
+
+.portfolio-list p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
