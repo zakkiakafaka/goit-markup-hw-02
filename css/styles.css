@@ -13,7 +13,12 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    background-color: var(--secondary-text-color);
+    color: var(--secondary-text-color);
+    background-color: var(--primary-background-color);
+}
+
+.list {
+    list-style: none;
 }
 
 /*------ MAIN PAGE CSS ------------ */
@@ -22,10 +27,6 @@ body {
 
 .header {
     background-color: var(--primary-background-color);
-}
-
-.list {
-    list-style: none;
 }
 
 .logo-link {
