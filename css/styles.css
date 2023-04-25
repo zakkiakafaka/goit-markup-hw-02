@@ -76,13 +76,14 @@ body {
 .main-header {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1,07;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
 .hero-btn {
+    font-family: "Roboto", sans-serif;
     align-items: flex-start;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -90,7 +91,7 @@ body {
 
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
@@ -134,7 +135,7 @@ body {
 .occupation-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -150,7 +151,7 @@ body {
 .team-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -164,7 +165,7 @@ body {
 .employee_name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.35;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
