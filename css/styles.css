@@ -13,22 +13,33 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    background-color: var(--primary-background-color);
+    background-color: var(--secondary-text-color);
 }
 
 /*------ MAIN PAGE CSS ------------ */
 
 /*-----------HEADER---------------*/
 
+.header {
+    background-color: var(--primary-background-color);
+}
+
+.list {
+    list-style: none;
+}
+
 .logo-link {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+}
+.link {
+    text-decoration: none
 }
 
 .logo {
@@ -175,9 +186,10 @@ body {
 }
 
 .footer-logo-link {
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
