@@ -65,6 +65,10 @@ body {
     color: var(--accent-color);
 }
 
+.adress {
+    font-style: normal;
+}
+
 .adress-link {
     font-style: normal;
     font-weight: 400;
